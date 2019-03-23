@@ -1,0 +1,210 @@
+{
+  "Res": {
+    "serviceUrl": "http://fahrinfo.vbb.de/restproxy",
+    "Connections": {
+      "context": "yW1Nz4PFxtCrS7tIQcXG0P__AAAYqpVcPAAA_9AHZAAQo5VcPAA",
+      "sup_speed": 0,
+      "sup_max_dist": 1,
+      "sup_changes": 1,
+      "Connection": [
+        {
+          "id": "R01afbe-C0",
+          "duration": "PT34M",
+          "transfers": 1,
+          "Dep": {
+            "time": "2019-03-23T03:08:00+01:00",
+            "Addr": {
+              "x": 13.412823,
+              "y": 52.518991
+            }
+          },
+          "Arr": {
+            "time": "2019-03-23T03:42:00+01:00",
+            "Addr": {
+              "x": 13.360541,
+              "y": 52.540592
+            }
+          },
+          "Sections": {
+            "Sec": [
+              {
+                "id": "R01afbe-C0-S0",
+                "mode": 20,
+                "Dep": {
+                  "time": "2019-03-23T03:08:00+01:00",
+                  "Addr": {
+                    "x": 13.412823,
+                    "y": 52.518991
+                  },
+                  "Transport": {
+                    "mode": 20
+                  }
+                },
+                "Journey": {
+                  "duration": "PT0H10M0S",
+                  "distance": 263
+                },
+                "Arr": {
+                  "time": "2019-03-23T03:18:00+01:00",
+                  "Stn": {
+                    "id": "vbb_900100705",
+                    "name": "S+U Alexanderplatz [U8]",
+                    "x": 13.412121,
+                    "y": 52.521616
+                  }
+                }
+              },
+              {
+                "id": "R01afbe-C0-S1",
+                "mode": 7,
+                "Dep": {
+                  "time": "2019-03-23T03:18:00+01:00",
+                  "RT": {
+                    "dep": "2019-03-23T03:18:00+01:00"
+                  },
+                  "Stn": {
+                    "id": "vbb_900100705",
+                    "name": "S+U Alexanderplatz [U8]",
+                    "x": 13.412121,
+                    "y": 52.521616
+                  },
+                  "Transport": {
+                    "mode": 7,
+                    "name": "U8",
+                    "dir": "S+U Wittenau",
+                    "At": {
+                      "category": "U-Bahn",
+                      "operator": "BVG",
+                      "iconId": "BERLIN_BRANDENBURG_EXT/u-bahn",
+                      "iconShape": "Rectangle",
+                      "textColor": "#FFFFFF",
+                      "color": "#181953"
+                    }
+                  }
+                },
+                "Journey": {
+                  "duration": "PT7M"
+                },
+                "Arr": {
+                  "time": "2019-03-23T03:25:00+01:00",
+                  "RT": {
+                    "arr": "2019-03-23T03:25:00+01:00"
+                  },
+                  "Stn": {
+                    "id": "vbb_900007102",
+                    "name": "S+U Gesundbrunnen Bhf",
+                    "x": 13.388372,
+                    "y": 52.548638
+                  }
+                }
+              },
+              {
+                "id": "R01afbe-C0-S2",
+                "mode": 4,
+                "Dep": {
+                  "time": "2019-03-23T03:32:00+01:00",
+                  "platform": "2",
+                  "RT": {
+                    "dep": "2019-03-23T03:32:00+01:00",
+                    "platform": "2"
+                  },
+                  "Stn": {
+                    "id": "vbb_900007102",
+                    "name": "S+U Gesundbrunnen Bhf",
+                    "x": 13.388372,
+                    "y": 52.548638
+                  },
+                  "Transport": {
+                    "mode": 4,
+                    "name": "S42",
+                    "dir": "S+U Hermannstr.",
+                    "At": {
+                      "category": "S-Bahn",
+                      "operator": "DBS",
+                      "iconId": "BERLIN_BRANDENBURG_EXT/s-bahn",
+                      "iconShape": "RoundedRect",
+                      "textColor": "#FFFFFF",
+                      "color": "#BF5A2A"
+                    }
+                  }
+                },
+                "Journey": {
+                  "duration": "PT2M"
+                },
+                "Arr": {
+                  "time": "2019-03-23T03:34:00+01:00",
+                  "platform": "2",
+                  "RT": {
+                    "arr": "2019-03-23T03:34:00+01:00",
+                    "platform": "2"
+                  },
+                  "Stn": {
+                    "id": "vbb_900009104",
+                    "name": "S+U Wedding",
+                    "x": 13.366061,
+                    "y": 52.542732
+                  }
+                }
+              },
+              {
+                "id": "R01afbe-C0-S3",
+                "mode": 20,
+                "Dep": {
+                  "time": "2019-03-23T03:34:00+01:00",
+                  "Stn": {
+                    "id": "vbb_900009104",
+                    "name": "S+U Wedding",
+                    "x": 13.366061,
+                    "y": 52.542732
+                  },
+                  "Transport": {
+                    "mode": 20
+                  }
+                },
+                "Journey": {
+                  "duration": "PT8M",
+                  "distance": 456
+                },
+                "Arr": {
+                  "time": "2019-03-23T03:42:00+01:00",
+                  "Addr": {
+                    "x": 13.360541,
+                    "y": 52.540592
+                  }
+                }
+              }
+            ]
+          },
+          "Tariff": {
+            "Fares": [
+              {
+                "Fare": [
+                  {
+                    "name": "Regeltarif",
+                    "currency": "EUR",
+                    "price": 2.8,
+                    "sec_ids": "R01afbe-C0-S1 R01afbe-C0-S2"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "Operators": {
+        "Op": [
+          {
+            "type": "RT",
+            "code": "BVG",
+            "name": "Berliner Verkehrsbetriebe"
+          },
+          {
+            "type": "RT",
+            "code": "DBS",
+            "name": "S-Bahn Berlin GmbH"
+          }
+        ]
+      }
+    }
+  }
+}
